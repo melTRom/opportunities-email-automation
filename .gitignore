@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Pipeline outputs (drafts + confirmation artifacts shouldn't be committed)
+output/drafts/*
+!output/drafts/.gitkeep
+
+# Local tooling state
+ruvector.db
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
