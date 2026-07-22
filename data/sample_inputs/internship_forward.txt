@@ -1,0 +1,54 @@
+From: Marcus Whitfield <marcus.w@riverbend.edu>
+To: cs-majors@riverbend.edu
+Date: Wed, 8 Jul 2026 16:47:00 -0500
+Subject: Fwd: SWE Intern posting (Fall Data Team) - deadline Sept 1
+
+Hey everyone,
+
+Got this from a recruiter who visited our Intro to Databases class
+last week. Sounds like a pretty chill team and they're specifically
+looking for underclassmen this cycle, so figured I'd pass it along
+before the deadline sneaks up on us.
+
+---------- Forwarded message ---------
+From: Talent Acquisition <talent@brightcedartech.example.com>
+Date: Mon, 6 Jul 2026 10:15:00 -0500
+Subject: Software Engineering Intern - Fall Data Team
+
+Hi there,
+
+Bright Cedar Technologies is hiring a Software Engineering Intern to
+join our Fall Data Team this semester. This is a part-time,
+school-year internship (10-15 hrs/week) working alongside our data
+platform engineers.
+
+Role: Software Engineering Intern - Fall Data Team
+Location: Remote (US-based), occasional on-site days optional
+Start: Early September 2026
+Application Deadline: September 1, 2026
+
+What you'd be doing:
+- Building and testing internal ETL pipeline components in Python
+- Writing unit tests and helping maintain data quality dashboards
+- Pairing with senior engineers on code review
+
+What we're looking for:
+- Currently enrolled undergrad, any year, CS or related major
+- Comfortable with Python and basic SQL
+- No prior internship experience required - we're happy to teach
+
+To apply, send a resume and a short note about a project you're
+proud of to careers@brightcedartech.example.com before September 1,
+2026. We're planning to review applications on a rolling basis, so
+earlier is better.
+
+Best,
+Talent Acquisition Team
+Bright Cedar Technologies
+
+---------- End forwarded message ---------
+
+If anyone applies, let me know how the process goes - always curious
+to compare notes on these smaller-company internships.
+
+- Marcus
