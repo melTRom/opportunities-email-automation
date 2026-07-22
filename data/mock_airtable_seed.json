@@ -1,0 +1,46 @@
+[
+  {
+    "id": "rec_seed_0001",
+    "fields": {
+      "Title": "Intro to Cloud Computing Workshop",
+      "Date": "2026-08-05",
+      "Description": "Hands-on evening workshop covering the basics of cloud deployment, containers, and serverless functions. Open to all CS majors, no prior cloud experience required.",
+      "Location": "Riverbend Hall, Room 214",
+      "Link": "https://example.edu/events/cloud-computing-workshop",
+      "Source": "flyer:cloud_workshop.pdf"
+    }
+  },
+  {
+    "id": "rec_seed_0002",
+    "fields": {
+      "Title": "Software Engineering Intern - Summer Analytics Team",
+      "Date": "2026-09-01",
+      "Description": "Paid summer internship building internal analytics tooling for a mid-size logistics company. Looking for rising juniors/seniors with Python experience.",
+      "Location": "Remote (US-based)",
+      "Link": "https://example.com/careers/swe-intern-analytics",
+      "Source": "email"
+    }
+  },
+  {
+    "id": "rec_seed_0003",
+    "fields": {
+      "Title": "Riverbend University Hackathon",
+      "Date": null,
+      "Description": "24-hour student hackathon with prizes for best overall hack, best beginner project, and best use of open data. Date TBD, pending venue confirmation.",
+      "Location": "Riverbend University Student Union",
+      "Link": "https://example.edu/events/hackathon",
+      "Source": "flyer:hackathon_flyer.jpg"
+    }
+  },
+  {
+    "id": "rec_seed_0004",
+    "fields": {
+      "Title": "Fall Career Fair",
+      "Date": "2026-05-15",
+      "Description": "Annual career fair with employers from tech, finance, and consulting recruiting for internships and full-time roles. Business casual attire recommended.",
+      "Location": "Riverbend University Fieldhouse",
+      "Link": "https://example.edu/events/fall-career-fair",
+      "Source": "trello"
+    }
+  }
+]

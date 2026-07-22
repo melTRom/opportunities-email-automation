@@ -91,6 +91,23 @@ downstream.
    list of pending new Airtable records. Nothing is written until you
    confirm at the prompt.
 
+## Airtable (currently mocked)
+
+There's no `AIRTABLE_PAT` yet, so Airtable isn't hit over the network right
+now -- `src/airtable_client.py` is a local JSON-file-backed mock standing in
+for the real `pyairtable`-based client. Two files are involved:
+
+- `data/mock_airtable_seed.json` -- committed. A handful of fake "existing
+  Airtable records" used as starter data.
+- `data/mock_airtable.json` -- gitignored. The runtime file the mock client
+  actually reads/writes; it's auto-created from the seed file the first time
+  the pipeline runs, then persists whatever gets written back after review.
+
+`src/airtable_client.py` keeps the exact same function signatures the real
+client will eventually use, so once a PAT is available, swapping in the real
+`pyairtable` implementation is a one-file change -- nothing else in the
+pipeline needs to change.
+
 ## Repo layout
 
 ```
@@ -124,5 +141,7 @@ downstream.
 ## Status
 
 Repo scaffolded; every `src/*.py` module has real function signatures and
-docstrings but raises `NotImplementedError` in the body. Next step: implement
-stage by stage, starting with `ingestion.py` and `extraction.py`.
+docstrings. `src/airtable_client.py` is implemented as a local mock (see
+"Airtable (currently mocked)" above); the rest still raise
+`NotImplementedError` in the body. Next step: implement stage by stage,
+starting with `ingestion.py` and `extraction.py`.

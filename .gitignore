@@ -15,6 +15,11 @@ output/drafts/*
 # Local tooling state
 ruvector.db
 
+# Local Airtable mock runtime state
+# (data/mock_airtable_seed.json IS committed on purpose -- fake starter
+# records; only the runtime file the mock client reads/writes is ignored)
+data/mock_airtable.json
+
 # OS
 .DS_Store
 
